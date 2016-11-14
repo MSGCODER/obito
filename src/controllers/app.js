@@ -4,9 +4,21 @@
 var express = require('express')
 var app = express()
 
+// 设置模版引擎
 app.set('view engine', 'pug')
 
+// 静态文件
+app.use(express.static('src/static'));
+
+var myLogger = function (req, res, next) {
+    console.log('LOGGED')
+    next()
+}
+
+app.use(myLogger)
+
 app.get('/', function (req, res) {
+    console.log('GET request to the homepage')
     res.send('GET request to the homepage')
 });
 
