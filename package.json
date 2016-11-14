@@ -1,21 +1,23 @@
 {
   "name": "obito",
   "version": "1.0.0",
-  "description": "obito",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:MSGCODER/obito.git"
+    "url": "git+https://github.com/MSGCODER/obito.git"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "express.js": "^4.14.0"
+  "bugs": {
+    "url": "https://github.com/MSGCODER/obito/issues"
   },
-  "dependencies": {
-    //    "express": "^4.14.0"
-  }
+  "homepage": "https://github.com/MSGCODER/obito#readme"
 }
