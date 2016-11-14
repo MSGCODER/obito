@@ -1,10 +1,10 @@
 {
   "name": "obito",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/MSGCODER/obito/issues"
   },
-  "homepage": "https://github.com/MSGCODER/obito#readme"
+  "homepage": "https://github.com/MSGCODER/obito#readme",
+  "description": ""
 }
